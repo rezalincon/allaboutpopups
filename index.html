@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('/v99.jpg');background-repeat: no-repeat;background-size: cover;">
+
+    <div class="container" >
+        <form class="form-inline" style="position:absolute; top:40%; left:50%; transform:translateX(-50%);">
+            <div class="form-group">
+                <label>Entrances</label>
+                <select class="form-control" id="entrance">
+                    <optgroup label="Attention Seekers">
+                        <option value="animate__bounce">bounce</option>
+                        <option value="animate__flash">flash</option>
+                        <option value="animate__pulse">pulse</option>
+                        <option value="animate__rubberBand">rubberBand</option>
+                        <option value="animate__shake">shake</option>
+                        <option value="animate__swing">swing</option>
+                        <option value="animate__tada">tada</option>
+                        <option value="animate__wobble">wobble</option>
+                        <option value="animate__jello">jello</option>
+                    </optgroup>
+                    <optgroup label="Bouncing Entrances">
+                        <option value="animate__bounceIn" selected>bounceIn</option>
+                        <option value="animate__bounceInDown">bounceInDown</option>
+                        <option value="animate__bounceInLeft">bounceInLeft</option>
+                        <option value="animate__bounceInRight">bounceInRight</option>
+                        <option value="animate__bounceInUp">bounceInUp</option>
+                    </optgroup>
+                    <optgroup label="Fading Entrances">
+                        <option value="animate__fadeIn">fadeIn</option>
+                        <option value="animate__fadeInDown">fadeInDown</option>
+                        <option value="animate__fadeInDownBig">fadeInDownBig</option>
+                        <option value="animate__fadeInLeft">fadeInLeft</option>
+                        <option value="animate__fadeInLeftBig">fadeInLeftBig</option>
+                        <option value="animate__fadeInRight">fadeInRight</option>
+                        <option value="animate__fadeInRightBig">fadeInRightBig</option>
+                        <option value="animate__fadeInUp">fadeInUp</option>
+                        <option value="animate__fadeInUpBig">fadeInUpBig</option>
+                    </optgroup>
+                    <optgroup label="Flippers">
+                        <option value="animate__flipInX">flipInX</option>
+                        <option value="animate__flipInY">flipInY</option>
+                    </optgroup>
+                    <optgroup label="Lightspeed">
+                        <option value="animate__lightSpeedIn">lightSpeedIn</option>
+                    </optgroup>
+                    <optgroup label="Rotating Entrances">
+                        <option value="animate__rotateIn">rotateIn</option>
+                        <option value="animate__rotateInDownLeft">rotateInDownLeft</option>
+                        <option value="animate__rotateInDownRight">rotateInDownRight</option>
+                        <option value="animate__rotateInUpLeft">rotateInUpLeft</option>
+                        <option value="animate__rotateInUpRight">rotateInUpRight</option>
+                    </optgroup>
+                    <optgroup label="Sliding Entrances">
+                        <option value="animate__slideInUp">slideInUp</option>
+                        <option value="animate__slideInDown">slideInDown</option>
+                        <option value="animate__slideInLeft">slideInLeft</option>
+                        <option value="animate__slideInRight">slideInRight</option>
+                    </optgroup>
+                    <optgroup label="Zoom Entrances">
+                        <option value="animate__zoomIn">zoomIn</option>
+                        <option value="animate__zoomInDown">zoomInDown</option>
+                        <option value="animate__zoomInLeft">zoomInLeft</option>
+                        <option value="animate__zoomInRight">zoomInRight</option>
+                        <option value="animate__zoomInUp">zoomInUp</option>
+                    </optgroup>
+    
+                    <optgroup label="Specials">
+                        <option value="animate__rollIn">rollIn</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Exits</label>
+                <select class="form-control" id="exit">
+                    <optgroup label="Attention Seekers">
+                        <option value="animate__bounce">bounce</option>
+                        <option value="animate__flash">flash</option>
+                        <option value="animate__pulse">pulse</option>
+                        <option value="animate__rubberBand">rubberBand</option>
+                        <option value="animate__shake">shake</option>
+                        <option value="animate__swing">swing</option>
+                        <option value="animate__animate__tada">tada</option>
+                        <option value="animate__wobble">wobble</option>
+                        <option value="animate__jello">jello</option>
+                    </optgroup>
+                    <optgroup label="Bouncing Exits">
+                        <option value="animate__bounceOut">bounceOut</option>
+                        <option value="animate__bounceOutDown">bounceOutDown</option>
+                        <option value="animate__bounceOutLeft">bounceOutLeft</option>
+                        <option value="animate__bounceOutRight">bounceOutRight</option>
+                        <option value="animate__bounceOutUp">bounceOutUp</option>
+                    </optgroup>
+                    <optgroup label="Fading Exits">
+                        <option value="animate__fadeOut">fadeOut</option>
+                        <option value="animate__fadeOutDown">fadeOutDown</option>
+                        <option value="animate__fadeOutDownBig">fadeOutDownBig</option>
+                        <option value="animate__fadeOutLeft">fadeOutLeft</option>
+                        <option value="animate__fadeOutLeftBig">fadeOutLeftBig</option>
+                        <option value="animate__fadeOutRight">fadeOutRight</option>
+                        <option value="animate__fadeOutRightBig">fadeOutRightBig</option>
+                        <option value="animate__fadeOutUp">fadeOutUp</option>
+                        <option value="animate__fadeOutUpBig">fadeOutUpBig</option>
+                    </optgroup>
+                    <optgroup label="Flippers">
+                        <option value="animate__flipOutX" selected>flipOutX</option>
+                        <option value="animate__flipOutY">flipOutY</option>
+                    </optgroup>
+                    <optgroup label="Lightspeed">
+                        <option value="animate__lightSpeedOut">lightSpeedOut</option>
+                    </optgroup>
+                    <optgroup label="Rotating Exits">
+                        <option value="animate__rotateOut">rotateOut</option>
+                        <option value="animate__rotateOutDownLeft">rotateOutDownLeft</option>
+                        <option value="animate__rotateOutDownRight">rotateOutDownRight</option>
+                        <option value="animate__rotateOutUpLeft">rotateOutUpLeft</option>
+                        <option value="animate__rotateOutUpRight">rotateOutUpRight</option>
+                    </optgroup>
+                    <optgroup label="Sliding Exits">
+                        <option value="animate__slideOutUp">slideOutUp</option>
+                        <option value="animate__slideOutDown">slideOutDown</option>
+                        <option value="animate__slideOutLeft">slideOutLeft</option>
+                        <option value="animate__slideOutRight">slideOutRight</option>
+                    </optgroup>
+                    <optgroup label="Zoom Exits">
+                        <option value="animate__zoomOut">zoomOut</option>
+                        <option value="animate__zoomOutDown">zoomOutDown</option>
+                        <option value="animate__zoomOutLeft">zoomOutLeft</option>
+                        <option value="animate__zoomOutRight">zoomOutRight</option>
+                        <option value="animate__zoomOutUp">zoomOutUp</option>
+                    </optgroup>
+                    <optgroup label="Specials">
+                        <option value="animate__rollOut">rollOut</option>
+                    </optgroup>
+    
+                </select>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#myModal">
+                Pop Up
+            </button>
+        </form>
+    
+    </div>
+    <!-- Modal -->
+    <div style="left: -185px;top: 60px;" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div   class="modal-dialog" role="document">
+            <div style="width: 65vw;" class="modal-content">
+                    <button id="c-btn" type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+               
+                <div style="padding: 4px 4px 0px 4px;margin-top: -33px;"  class="modal-body">
+                    <iframe width="100%" height="450px" src="https://www.youtube.com/embed/JgoXPJjEoFs" title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+        integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>

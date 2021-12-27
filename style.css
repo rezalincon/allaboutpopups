@@ -12,8 +12,8 @@ body{
 }
  .close{
     position: relative;
-        top: -29px;
-    right: -25px;
+        top: 35px;
+    right: -10px;
     z-index: 999;
     background: #000 !important;
     border-color: #fff !important;

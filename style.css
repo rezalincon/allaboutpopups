@@ -10,23 +10,24 @@ body{
    -moz-transform: translate(0);
    transform: translate(0);
 }
-.close{
+ .close{
     position: relative;
-        top: -19px;
-    right: -871px;
+        top: -29px;
+    right: -25px;
     z-index: 999;
     background: #000 !important;
     border-color: #fff !important;
     color: #fff !important;
     font-size: 26px !important;
-    line-height: 29px;
+    line-height: 2px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     opacity: 1;
-    width: 33px;
+    width: 48px;
+    height: 45px;
     border-radius: 50%;
     border: 2px solid #fff !important;
-}
+} 
 
 .launch {
  display: inline-block;

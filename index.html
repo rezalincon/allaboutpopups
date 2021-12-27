@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>All About Popups</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
         integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image: url('v99.jpg');background-repeat: no-repeat;background-size: cover;">
+<body style="background-image: url('bg1.jpg');background-repeat: no-repeat;background-size: cover;height: 100vh;width: 100vw;">
 
     <div class="container" >
         <form class="form-inline" style="position:absolute; top:40%; left:50%; transform:translateX(-50%);">
@@ -154,21 +154,26 @@
     
     </div>
     <!-- Modal -->
-    <div style="left: -185px;top: 60px;" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div   class="modal-dialog" role="document">
-            <div style="width: 65vw;" class="modal-content">
-                    <button id="c-btn" type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
-               
-                <div style="padding: 4px 4px 0px 4px;margin-top: -33px;"  class="modal-body">
-                    <iframe width="100%" height="450px" src="https://www.youtube.com/embed/JgoXPJjEoFs" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+<div style="left: -200px;top: 50px;" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div style="width: 60vw;" class="modal-content">
+            <div style="height: -1px;" class="modal-header">
+                <!-- <h5 class="modal-title" id="myModal">Modal title</h5> -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
+            <div class="modal-body">
+                <img style="height: 500px;" class="img-fluid" src="img1.jpg" alt="">
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
         </div>
     </div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

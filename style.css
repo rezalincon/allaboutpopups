@@ -1,6 +1,5 @@
 body{
   text-align:center;
-  padding:50px;
 }
 .modal.fade{
   opacity:1;
@@ -67,4 +66,32 @@ body{
 .launch:hover span:after {
  opacity: 1;
  right: 0;
+}
+
+.form-control{
+       -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+    height: 54px !important;
+    font-size: 18px;
+    font-weight: 300;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px !important;
+}
+#message {
+    height: 130px !important;
+}
+.btn.btn-md {
+    padding: 10px 25px !important;
+}
+.btn-primary {
+    background: #da1212 !important;
+    color: #fff !important;
+    border: 2px solid #da1212 !important;
+  border-radius: 0px !important;
 }

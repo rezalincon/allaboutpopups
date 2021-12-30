@@ -107,7 +107,10 @@ body{
 }
 .logo{width: 51% !important;}
  }
-
+.h-pink:hover{
+  background-color: #FF16A7 !important;
+  border: 1px solid #FF16A7 !important;
+}
 
  @media (min-width: 526px) and (max-width: 768px) { 
      .header-top{

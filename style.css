@@ -12,7 +12,7 @@ body{
  .close{
     position: relative;
     top: 35px;
-    right: 32px;
+    right: -7px;
     z-index: 999;
     background: #000 !important;
     border-color: #fff !important;

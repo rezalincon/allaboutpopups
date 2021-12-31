@@ -153,6 +153,15 @@ body{
 .pop-form{
   position:absolute; top:55%; left:51%; width: 85%; transform:translateX(-50%);
 }
+.main{
+  background-image: url('final-bg.jpg');background-repeat: no-repeat;background-size:contain;height: 100vh;width: 100vw;
+}
+.header-top{
+  color: #000;
+}
+.header-below{
+  color: #000;
+}
 .pop-btn{
   margin-left: 40% !important;
 }

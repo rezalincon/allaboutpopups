@@ -69,6 +69,10 @@ body{
  right: 0;
 }
 
+.main{
+  background-image: url('final-bg.jpg');background-repeat: no-repeat;background-size: cover;height: 100vh;width: 100vw;
+}
+
 
 #message {
     height: 130px !important;
@@ -93,6 +97,16 @@ body{
 }
 
 @media (max-width: 525.98px) { 
+  .modal{
+    left: 0px!important;
+    top: 40px!important;
+  }
+  .modal-content{
+    width: 96vw !important;
+  }
+  .p-img{
+    height: 300px !important;
+  }
   .header-top{
   text-align: center;position:absolute; top:18%; left:49%;width: 83%; transform:translateX(-50%);color: #fff;
 }
@@ -106,10 +120,21 @@ body{
   margin-left: 70px !important;
 }
 .logo{width: 51% !important;}
+.main{
+  background-image: url('final-bg.jpg');background-repeat: no-repeat;background-size:contain;height: 100vh;width: 100vw;
+}
+.header-top{
+  color: #000;
+}
+.header-below{
+  color: #000;
+}
  }
+
+
 .h-pink:hover{
-  background-color: #FF16A7 !important;
-  border: 1px solid #FF16A7 !important;
+  background-color: #64646e !important;
+  border: 1px solid #64646e !important;
 }
 .modal-open {
     overflow-y: scroll !important;

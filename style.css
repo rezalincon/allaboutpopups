@@ -139,17 +139,21 @@ body{
 .modal-open {
     overflow-y: scroll !important;
 }
+.modal{
+  overflow: hidden !important;
+}
 
 
 
 
  @media (min-width: 526px) and (max-width: 768px) { 
      .header-top{
-  text-align: center;position:absolute; top:18%; left:49%;width: 83%; transform:translateX(-50%);color: #fff;
+  text-align: center;position:absolute; top:31%; left:49%;width: 83%; transform:translateX(-50%);color: #fff;
 }
 .header-below{
-  text-align: center;position:absolute; top:33%; left:49%; transform:translateX(-50%);color: #fff;
+  text-align: center;position:absolute; top:44%;width: 70%; left:49%; transform:translateX(-50%);color: #fff;
 }
+
 .pop-form{
   position:absolute; top:55%; left:51%; width: 85%; transform:translateX(-50%);
 }
